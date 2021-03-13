@@ -219,7 +219,6 @@ nav ul li a {
 
 /* | Section 1 */
 .section-1 .left {
-	width: 270px;
 	position: relative;
 	left: 50%;
 	transform: translateX(-50%);

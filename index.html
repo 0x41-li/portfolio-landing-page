@@ -6,9 +6,9 @@
 	<title>Lisa</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	
-	<link rel="stylesheet" href="css/main.css" media="all">
 	<link rel="stylesheet" href="css/normalize.css" media="all">
 	<link href="css/all.min.css" rel="stylesheet" media="all">
+	<link rel="stylesheet" href="css/main.css" media="all">
 
 	<script defer src="js/main.js"></script>
 
@@ -29,7 +29,7 @@
 
 	<header>
 		<div class="logo">Li.</div>
-		<div class="hum" role="button">
+		<div class="hum desktop-hide" role="button">
 			<span></span>
 			<span></span>
 			<span></span>
@@ -47,10 +47,10 @@
 	<main>
 		<section class="section-1">
 			<div class="left">
-				<h1>Hello, I'm Lisa</h1>
+				<h1 class="m-tb-10" >Hello, I'm Lisa</h1>
 				<p>Multifunctional designer/developer based in Bath — a traditionally trained designer who codes.</p>
-				<a class="btn" href="">View Work</a>
-				<div class="social-media-icons-links">
+				<a class="btn m-tb-10" href="">View Work</a>
+				<div class="social-media-icons-links m-tb-10">
 					<ul>
 						<li>
 							<a href="#"><i class="fab fa-dribbble"></i></a>
@@ -64,10 +64,10 @@
 					</ul>
 				</div>
 			</div>
-			<div class="right mobile-hide">
-				<div class="imageWrapper">
-					<img src="./assets/images/section-1/working.svg" alt="An illustration.">
-				</div>
+			<div class="right">
+			</div>
+			<div class="imageWrapper mobile-hide">
+				<img src="./assets/images/section-1/working.svg" alt="An illustration.">
 			</div>
 		</section>
 
@@ -95,62 +95,65 @@
 						<p>It’s about organizing the content and flow of a website based on research and planning. Eventually I come up with a structure/design that balances the users’ desires with the business’s needs.</p>
 					</div>
 				</div>
-				<div class="row">
-					<div class="right img">
+				<div class="row third-i-do">
+					<div class="left img">
 						<img src="./assets/images/section-2/design-dev.svg" alt="Design's website related">
 					</div>
-					<div class="left text">
+					<div class="right text">
 						<h3>Design & Development</h3>
 						<p>As a designer and developer, I understand the perfect user interface should look good and work even better. Alongside my clients, I uncover problems and solve them. In short, I create bolder online experiences.</p>
 					</div>
 				</div>
 			</div>
 			<div class="dotted-lines mobile-hide">
-				<div class="firstLine"><img src="./assets/images/section-2/dotted-line-1.svg" alt="Illustration for the website design"></div>
-				<div class="secondLine"><img src="./assets/images/section-2/dotted-line-2.svg" alt="Illustration for the website design"></div>
+				<div class="first-line"><img src="./assets/images/section-2/dotted-line-1.svg" alt="Illustration for the website design"></div>
+				<div class="second-line"><img src="./assets/images/section-2/dotted-line-2.svg" alt="Illustration for the website design"></div>
 			</div>
 		</section>
 
 		<section class="section-3">
 			<div class="trees mobile-hide">
-				<div class="tree-1"><img src="./assets/images/section-3/plants.svg" alt="A plant illustration, for Website design."></div>
-				<div class="tree-2"><img src="./assets/images/section-3/plants-2.svg" alt="A plant illustration, for Website design."></div>
+				<div class="tree tree-1"><img src="./assets/images/section-3/plants.svg" alt="A plant illustration, for Website design."></div>
+				<div class="tree tree-2"><img src="./assets/images/section-3/plants-2.svg" alt="A plant illustration, for Website design."></div>
 			</div>
 			<div class="work">
 				<h2>Recent Work</h2>
 				<div class="imgs">
-					<div class="img"><img src="./assets/images/section-3/project-1.svg" alt="Illustration for website design purporse."></div>
-					<div class="img"><img src="./assets/images/section-3/project-2.svg" alt="Illustration for website design purporse."></div>
+					<div class="img float-left margin-top"><img src="./assets/images/section-3/project-1.svg" alt="Illustration for website design purporse."></div>
+					<div class="img float-right"><img src="./assets/images/section-3/project-2.svg" alt="Illustration for website design purporse."></div>
 				</div>
 				<div class="imgs">
-					<div class="img"><img src="./assets/images/section-3/project-3.svg" alt="Illustration for website design purporse."></div>
-					<div class="img"><img src="./assets/images/section-3/project-4.svg" alt="Illustration for website design purporse."></div>
+					<div class="img float-left"><img src="./assets/images/section-3/project-3.svg" alt="Illustration for website design purporse."></div>
+					<div class="img float-right minus-margin-top"><img src="./assets/images/section-3/project-4.svg" alt="Illustration for website design purporse."></div>
 				</div>
 			</div>
+			<div class="view-work cleared"><a class="btn" href="#">View Work</a></div>
 		</section>
 
 		<section class="section-4">
 			<div class="tree mobile-hide"><img src="./assets/images/section-4/plants.svg" alt="Illustration for website design."></div>
-			<div class="left">
-				<h2>Ready to make something amazing</h2>
-				<a class="btn" href="#">Start A New Project</a>
-				<div class="social-media-icons-links">
-					<ul>
-						<li>
-							<a href="#"><i class="fab fa-dribbble"></i></a>
-						</li>
-						<li>
-							<a href="#"><i class="fab fa-behance"></i></a>
-						</li>
-						<li>
-							<a href="#"><i class="fab fa-linkedin-in"></i></a>
-						</li>
-					</ul>
+			<div class="wrapper">
+				<div class="left float-left">
+					<h2 class="m-tb-10" >Ready to make something amazing</h2>
+					<a class="btn" href="#">Start A New Project</a>
+					<div class="social-media-icons-links m-tb-10">
+						<ul>
+							<li>
+								<a href="#"><i class="fab fa-dribbble"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fab fa-behance"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fab fa-linkedin-in"></i></a>
+							</li>
+						</ul>
+					</div>
 				</div>
-			</div>
-			<div class="right mobile-hide">
-				<div class="design"></div>
-				<div class="img"><img src="./assets/images/section-4/illustration.svg" alt=""></div>
+				<div class="right mobile-hide float-right">
+					<div class="design"></div>
+					<div class="img"><img src="./assets/images/section-4/illustration.svg" alt=""></div>
+				</div>
 			</div>
 		</section>
 

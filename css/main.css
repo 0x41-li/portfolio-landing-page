@@ -400,6 +400,14 @@ nav ul li a {
 		width: 160px;
 	}
 
+	.section-2 .tree-1 {
+		position: absolute;
+		bottom: 62px;
+		right: -86px;
+		width: 160px;
+	}
+
+
 	.section-2 .content .row img {
 		width: 100%;
 	}
@@ -468,7 +476,7 @@ nav ul li a {
 	.section-3 .trees .tree-1 {
 		position: absolute;
 		right: -104px;
-		top: -280px;
+		bottom: 120px;
 	}
 
 	.section-3 .trees .tree-2 {
@@ -509,8 +517,9 @@ nav ul li a {
 	/* | Section-4 */
 	.section-4 {
 		position: relative;
-		top: 100px;
-
+		top: 140px;
+		padding: 0;
+		margin: 0;
 	}
 
 	.section-4 .tree {
@@ -523,14 +532,43 @@ nav ul li a {
 	.section-4 .wrapper {
 		margin: 0 auto;
 		width: 80%;
+		height: 200px;
 	}
 
 	.section-4 .left {
-		width: 45%;
+		position: relative;
+		top: 30%;
+		transform: translateY(-50%);
+		width: 180px;
+	}
+
+	.section-4 .left .social-media-icons-links {
+		margin-top: 30px;
+	}
+
+	.section-4 .left .btn {
+		margin-top: 10px;
 	}
 	
 	.section-4 .right {
+		position: relative;
+		top: -40px;
 		width: 45%;
+	}
+
+	.section-4 .design {
+		position: absolute;
+		top: -145px;
+		right: -240px;
+		width: 86vw;
+		height: 280px;
+		background-color: #54B192;
+		border-radius: 200px;
+		transform: rotateZ(-25deg);
+	}
+
+	.section-4 .left h2 {
+		font-size: 20px;
 	}
 
 

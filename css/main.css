@@ -382,7 +382,7 @@ nav ul li a {
 	/* | Section-2 */
 	.section-2 {
 		position: relative;
-		margin-top: 140px;
+		margin-top: 15vw;
 	}
 
 	.section-2 .content h2 {
@@ -441,11 +441,11 @@ nav ul li a {
 	}
 
 	.dotted-lines {
+		width: 50vw;
 		position: absolute;
 		top: 192px;
 		left: 50%;
 		transform: translateX(-50%);
-		width: 50%;
 	}
 
 	.dotted-lines .second-line {
@@ -539,7 +539,7 @@ nav ul li a {
 		position: relative;
 		top: 30%;
 		transform: translateY(-50%);
-		width: 180px;
+		width: 220px;
 	}
 
 	.section-4 .left .social-media-icons-links {
@@ -588,9 +588,64 @@ nav ul li a {
 
 
 
+}
 
 
 
+/* -- Greater than 768px (Tablets) */
+@media screen and (min-width: 1024px) {
+	
+	/* || GENERAL STYLES */
+	html {
+		font-size: 14px;
+	}	
+
+
+	/* | Section 1 */
+	.section-1 .left {
+		top: 60px;
+	}
+
+	.section-1 .social-media-icons-links {
+		margin-top: 30px;
+	}
+
+
+	.section-1 .btn {
+		margin-top: 20px;
+	}
+
+
+	
+	/* | Section-2 */
+	.section-2 {
+		margin-top: 20vw;
+	}
+
+	.dotted-lines {
+		display: none;
+	}
+
+	/* | Section-3 */
+	.section-3 {
+		top: 80px;
+	}
+
+
+	/* | Section-3 */
+	.section-4 {
+		top: 280px
+	}
+
+	.section-4 .wrapper .design {
+		width: 78vw;
+	}
+
+
+	.section-4 .wrapper .left {
+		top: 120px;
+		left: 40px;
+	}
 
 
 

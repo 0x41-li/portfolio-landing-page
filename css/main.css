@@ -85,7 +85,6 @@ header {
 section {
 	margin-bottom: 20px;
 	position: relative;
-	clear: both;
 }
 
 img {
@@ -676,6 +675,13 @@ nav ul li a {
 		top: -140px;
 	}
 
+	.section-1 .left .btn {
+		margin-top: 30px;
+	}
+
+	.section-1 .left .social-media-icons-links {
+		margin-top: 50px;
+	}
 
 	/* | Section-2 */
 	.section-2 .content .row .img {
@@ -709,9 +715,30 @@ nav ul li a {
 		font-size: 2rem;
 	}
 
+	.section-4 .left .btn {
+		margin-top: 20px;
+	}
+
+	.section-4 .left .social-media-icons-links {
+		margin-top: 60px;
+	}
+
 
 }
 
 
 
 
+
+
+
+/* -- Greater than 2560px (4K) */
+@media screen and (min-width: 1440px) {
+
+	/* || GENERAL STYLES */
+	html {
+		font-size: 34px;
+	}
+	
+	/* | Section-1 */
+}

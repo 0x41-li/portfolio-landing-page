@@ -47,7 +47,7 @@ html {
 main {
 	position: relative;
 	top: 60px;
-	padding: 0 10px;
+	padding: 0 20px;
 }
 
 ul,ol {
@@ -83,7 +83,7 @@ header {
 }
 
 section {
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	position: relative;
 }
 
@@ -413,7 +413,7 @@ nav ul li a {
 
 	.section-2 .content .rows {
 		padding: 20px 0px;
-		margin-top: 30px;
+		margin-top: 10px;
 	}
 
 	.section-2 .content .row img {
@@ -423,11 +423,18 @@ nav ul li a {
 	.section-2 .content .row {
 		position: relative;
 		width: 80vw;
-		margin: auto;
+		margin: 0px auto;
 		clear: both;
 		display: flow-root;
 	}
 
+	.section-2 .content .rows .row:nth-child(2) {
+		margin-top: 28px;
+	}
+
+	.section-2 .content .rows .row:nth-child(3) {
+		margin-top: 44px;
+	}
 
 	.section-2 .content .row .right {
 		float: right;
@@ -448,11 +455,14 @@ nav ul li a {
 	}
 
 	.dotted-lines {
-		width: 50vw;
 		position: absolute;
 		top: 192px;
-		left: 50%;
-		transform: translateX(-50%);
+		margin: 0 auto;
+		padding: 0 25vw;
+	}
+
+	.dotted-lines img {
+		width: 100%;
 	}
 
 	.dotted-lines .second-line {
@@ -628,19 +638,24 @@ nav ul li a {
 	}
 
 	.dotted-lines {
-		display: none;
+		padding: 10px 21vw;
+	}
+
+	.section-2 .content .rows .row:nth-child(2) {
+		margin-top: 108px;
+	}
+
+	.section-2 .content .rows .row:nth-child(3) {
+		margin-top: 118px;
 	}
 
 	/* | Section-3 */
 	.section-3 {
-		top: 80px;
+		margin-top: 80px;
 	}
 
 
-	/* | Section-3 */
-	.section-4 {
-		top: 280px
-	}
+	/* | Section-4 */
 
 	.section-4 .wrapper .design {
 		width: 78vw;
@@ -651,8 +666,13 @@ nav ul li a {
 
 
 	.section-4 .wrapper .left {
-		top: 120px;
+		margin-top: 120px;
 		left: 40px;
+		width: 280px;
+	}
+
+	.section-4 .wrapper .left h2 {
+		font-size: 2rem;
 	}
 
 }
@@ -697,6 +717,27 @@ nav ul li a {
 		width: 350px;
 	}
 
+	.dotted-lines {
+		left: 0;
+		right: 0;
+		padding: 10px 24vw;
+	}
+
+	.dotted-lines .first-line {
+		margin-top: 60px;
+	}
+	
+	.dotted-lines .second-line {
+		margin-top: 150px;
+	}
+
+	.section-2 .content .rows .row:nth-child(2) {
+		margin-top: 138px;
+	}
+
+	.section-2 .content .rows .row:nth-child(3) {
+		margin-top: 160px;
+	}
 
 	/* | Section-3 */
 	.section-3 {
@@ -725,7 +766,7 @@ nav ul li a {
 	}
 
 	.section-4 .wrapper .left {
-		top: 180px;
+		margin-top: 180px;
 	}
 
 	.section-4 .wrapper .left h2 {
@@ -740,6 +781,10 @@ nav ul li a {
 		margin-top: 60px;
 	}
 
+	.section-1 .left .social-media-icons-links li,
+       .section-4 .left .social-media-icons-links li {
+	       padding: 0px 6px;
+	}
 
 }
 
@@ -761,6 +806,13 @@ nav ul li a {
 		width: 100%;
 	}
 
+
+	/* || SITEWIDE */
+	.btn {
+		border-radius: 100px;
+		padding: 15px 38px;
+	}
+
 	
 	/* | Section-1 */
 	.section-1 .right {
@@ -779,9 +831,15 @@ nav ul li a {
 	}
 
 	.section-1 .left .social-media-icons-links,
-       .section-4 .left .social-media-icons-links	{
+       .section-4 .left .social-media-icons-links {
 		margin-top: 100px;
 	}
+
+	.section-1 .left .social-media-icons-links li,
+       .section-4 .left .social-media-icons-links li {
+	       padding: 0px 10px;
+	}
+
 
 	/* | Section-2 */
 	.section-2 .content .row .img {
@@ -800,6 +858,27 @@ nav ul li a {
 		margin-top: 40px;
 	}
 
+	.dotted-lines {
+		padding: 10px 26vw;
+	}
+
+	.dotted-lines .first-line {
+		margin-top: 340px;
+	}
+	
+	.dotted-lines .second-line {
+		margin-top: 380px;
+	}
+
+	.section-2 .content .rows .row:nth-child(2) {
+		margin-top: 200px;
+	}
+
+	.section-2 .content .rows .row:nth-child(3) {
+		margin-top: 220px;
+	}
+
+
 	/* | Section-4 */
 	.section-4 {
 		margin-top: 300px;
@@ -810,7 +889,26 @@ nav ul li a {
 	}
 
 	.section-4 .wrapper .left {
-		margin-top: 100px;
+		margin-top: 300px;
 	}
 
+
+}
+
+
+
+
+
+/* // Final TWEAKS */
+
+
+/* Greater than 375px (Mobile M) */
+@media screen and (min-width: 375px) {
+	section {
+		padding: 0 40px;
+	}
+
+	.section-3 {
+		padding: 0;
+	}
 }

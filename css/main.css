@@ -146,6 +146,10 @@ img {
 	font-weight: bold;
 }
 
+.btn:hover {
+	background-color: #54B192;
+}
+
 /* Menu showing and hidding */
 nav {
 	opacity: 0;
@@ -694,6 +698,10 @@ nav ul li a {
 		width: 44%;
 	}
 
+	
+
+
+
 	.section-4 .left {
 		margin-top: 120px;
 	}
@@ -927,6 +935,34 @@ nav ul li a {
 		border-radius: 40vw;
 	}
 
+	.section-2 .tree {
+		top: -12vw;
+		left: -8vw;
+		width: 16vw;
+	}
+
+
+	.section-2 .tree-1 {
+		width: 16vw;
+		right: -8vw;
+	}
+
+	.section-3 .trees .tree {
+		width: 16vw;
+	}
+
+	.section-3 .trees .tree-2 {
+		left: -12vw;
+	}
+
+	.section-3 .trees .tree-1 {
+		right: -8vw;
+	}
+
+	.section-4 .tree {
+		width: 16vw;
+		left: -8vw;
+	}
 }
 
 
@@ -935,6 +971,7 @@ nav ul li a {
 	.dotted-lines {
 		margin-top: 12vw;
 	}
+
 }
 
 
@@ -947,6 +984,7 @@ nav ul li a {
 	.section-4 {
 		margin-top:520px;
 	}
+
 }
 
 

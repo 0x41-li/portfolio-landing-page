@@ -287,7 +287,12 @@ nav ul li a {
 
 /* | Section-4 */
 .section-4 {
+  margin-bottom: 0;
 	padding-bottom: 20px;
+}
+
+.btn:hover, .btn:focus, .btn:active {
+  background-color: #171525;
 }
 
 
@@ -1032,6 +1037,7 @@ nav ul li a {
 
 	/* | Section-4 */
 	.section-4 {
+    margin-bottom: 0;
 		margin-top: 600px;
 	}
 

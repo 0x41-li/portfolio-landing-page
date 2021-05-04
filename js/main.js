@@ -1,5 +1,4 @@
 
-
 // || VARIABLES
 const hum = document.querySelector(".hum");
 const nav = document.querySelector("nav");
